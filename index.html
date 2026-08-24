@@ -1,1 +1,45 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Controllo Agente Ristorante</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; background-color: #f4f4f9; color: #333; }
+    .card { background: white; padding: 15px; border-radius: 8px; margin-bottom: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    h1 { color: #dc2626; font-size: 1.5rem; margin-bottom: 5px; }
+    h2 { font-size: 1.1rem; margin-top: 0; }
+    button { background: #dc2626; color: white; border: none; padding: 10px 15px; border-radius: 5px; cursor: pointer; font-weight: bold; width: 100%; margin-top: 10px; }
+    input[type="text"], input[type="number"] { width: 100%; padding: 8px; margin-top: 5px; box-sizing: border-box; }
+  </style>
+</head>
+<body>
 
+  <h1>🤖 Marketing Agent Ristorante</h1>
+  <p style="font-size: 0.8rem; color: green; font-weight: bold;">● Agente Attivo</p>
+
+  <div class="card">
+    <h2>1. Frequenza Social Settimanale</h2>
+    <label>Reels / TikTok a settimana:</label>
+    <input type="number" value="2">
+    <br><br>
+    <label>Storie Meta a settimana:</label>
+    <input type="number" value="4">
+  </div>
+
+  <div class="card">
+    <h2>2. Impostazioni Chatbot Meta</h2>
+    <label><input type="checkbox" checked> Proponi Menu in Chat</label>
+    <br><br>
+    <label>Numero WhatsApp (Riservazioni e Preventivi):</label>
+    <input type="text" value="+393331234567">
+    <button onclick="alert('Impostazioni Salvate!')">Salva Impostazioni</button>
+  </div>
+
+  <div class="card">
+    <h2>3. Archivio Google Drive</h2>
+    <button style="background: #333;" onclick="alert('Apri la cartella Drive per caricare i file')">📁 Apri Cartella Drive</button>
+  </div>
+
+</body>
+</html>
